@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
-    @RequestMapping(value = "/show")
+    @RequestMapping(value = "/showInfo")
     public String show(){
-        return "ok controller";
+        return "ok controller showInfo";
     }
 }
